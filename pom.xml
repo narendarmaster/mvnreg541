@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>in.nnrg</groupId>
-  <artifactId>mnvbreg541</artifactId>
+  <artifactId>mvnreg541</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>mnvbreg541 Maven Webapp</name>
@@ -14,8 +14,15 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/jakarta.servlet/jakarta.servlet-api -->
+<dependency>
+    <groupId>jakarta.servlet</groupId>
+    <artifactId>jakarta.servlet-api</artifactId>
+    <version>6.1.0</version>
+    <scope>provided</scope>
+</dependency>
   </dependencies>
   <build>
-    <finalName>mnvbreg541</finalName>
+    <finalName>mvnreg541</finalName>
   </build>
 </project>
