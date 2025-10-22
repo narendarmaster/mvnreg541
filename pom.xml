@@ -5,7 +5,7 @@
   <artifactId>mvnreg541</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>mnvbreg541 Maven Webapp</name>
+  <name>mvnreg541 Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
